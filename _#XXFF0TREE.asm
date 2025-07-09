@@ -7,7 +7,7 @@ section .bss
 global _xxffotree
 _xxffotree:
 
-_defint db 'defaultint'
+_defint db 'defaultint';init num to zero automatically
 _int db 'int'
 _floating db 'floating'
 _boolean db 'boolean' ;bool uses 0 for false and 1 for true
