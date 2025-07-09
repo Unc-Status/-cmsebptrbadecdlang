@@ -34,4 +34,10 @@ _globalaccess db 'globalaccess:' ;pblc
 _armoredaccess db 'armoredaccess:' ;prtced
 _hiddenaccess db 'hiddenaccess' ;prvte
 _null db 'null'
-
+_smrtchck db 'smrtchck';tel comp chk twce
+_memory db 'memory'
+_struct db 'struct'
+_class db 'class'
+_virtual db 'virtual'
+_include db '#include'
+_shift db 'shiftvar'
