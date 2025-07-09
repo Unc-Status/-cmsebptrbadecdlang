@@ -7,6 +7,8 @@ section .bss
 global _xxffotree
 _xxffotree:
 
+%define KYW '' 0
+
 _defint db 'defaultint';init num to zero automatically
 _int db 'int'
 _floating db 'floating'
@@ -31,5 +33,5 @@ _failedfor db 'failedfor'
 _globalaccess db 'globalaccess:' ;pblc
 _armoredaccess db 'armoredaccess:' ;prtced
 _hiddenaccess db 'hiddenaccess' ;prvte
-
+_null db 'null'
 
